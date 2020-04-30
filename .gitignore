@@ -1,6 +1,8 @@
 # Compiled class file
 *.class
 
+day08-ssm/build/classes
+
 # Log file
 *.log
 
