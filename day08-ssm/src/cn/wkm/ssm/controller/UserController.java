@@ -24,6 +24,12 @@ public class UserController {
 		return "user";
 	}
 	
+	@RequestMapping("/upadte")
+	public String upadte(Integer userId) {
+		//删除成功后重定向到开始 页面
+		return "redirect:/user/list.do";
+	}
+	
 	@RequestMapping("/delete")
 	public String delete(Integer userId) {
 		userService.deleteByPrimaryKey(userId);
