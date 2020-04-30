@@ -60,18 +60,7 @@ public class User {
 		this.age = age;
 	}
 
-	public User(Integer id, String name, String password, Integer age) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.password = password;
-		this.age = age;
-	}
 
-	public User() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 
 	@Override
 	public String toString() {
